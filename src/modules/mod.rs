@@ -6,3 +6,4 @@ pub mod e_if_bucles;
 pub mod f_references;
 pub mod g_slices;
 pub mod h_structs;
+pub mod i_enums;

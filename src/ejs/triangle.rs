@@ -4,8 +4,13 @@ fn main() {
   //let area = calculate_area(30, 50);
   //println!("The area is: {}", area);
 
-  let dimensions1 = Dimensions(10, 20);
-  let area2 = calculate_area_2(dimensions1); 
+  let my_rectangle = Rectangle{
+    height: 10,
+    width: 10
+  };
+
+  let area = my_rectangle.calculate_area();
+  println!("{}", area)
 }
 
 fn calculate_area(width: u32, height: u32) -> u32 {

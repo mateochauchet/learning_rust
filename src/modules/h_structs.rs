@@ -29,6 +29,8 @@ fn main() {
     stats: 0,
   };
 
+  let suarez = Player::create("Luis suarez".to_string(), 34, true)
+
   let messi_2012 = Player {
     age: 25,
     stats: 91,
