@@ -31,5 +31,31 @@ fn change_door(state: Door_state) -> Door_state {
   }
 }
 
+enum Message {
+  Quit,
+  Move { x: i32, y: i32 },
+  Write(String),
+  ChangeColor(i32, i32, i32)
+}
+
+impl Message {
+  fn llamar(&self) {
+
+  }
+}
+
+fn enum_with_values() {
+
+}
 
 
+// Rust no permite trabajar con valores null
+// existe este enum para lograr añgp similar
+// esto esta en la libreria estandar
+
+// None, Ninguni
+// Some, Algo
+enum Option<T> {
+  None,
+  Some(T),
+}
