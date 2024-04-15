@@ -39,12 +39,14 @@ enum Message {
 }
 
 impl Message {
-  fn llamar(&self) {
-
+  fn call(&self) {
+    // method body would be defined here
   }
 }
 
 fn enum_with_values() {
+  let m = Message::Write(String::from("hello"));
+  m.call();
 
 }
 
